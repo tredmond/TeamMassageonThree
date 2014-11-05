@@ -16,16 +16,16 @@ body {
   	}
 
 header {
+	width: 100%;
 	font-weight: 700;
 	font-size: 2em;
 	float: left;
-	margin-left: 15%;
-
 }
 
 .menu {	
 	float: left;
 	margin-top: 1%;
+	margin-left: 5%;
 	color: white;
 	fill: white;
 }
@@ -33,9 +33,14 @@ header {
 h1 {
 	width: 100%;
 	margin-top: -.5%;
-	margin-left: 25%;
+	margin-left: -5%;
+	margin-right: 5%;
 	text-align: center;	
 }
+
+.timeforabreak {
+		display:none;
+	}
 
 nav {
 	clear: both;
@@ -63,34 +68,70 @@ nav li:hover {
 	background: rgba(192,192,192,.5);
     color: #fff;
 }
-nav select {
+select {
 	display:none;
 }
-
-
 
 .credits {
 	color: white;
 	background: black;
 }
 
+.content {
+	margin-top: 5%;
+}
+
+.content li {
+	list-style: none;
+}
+	
+.content input[type=checkbox] {
+	display: none;
+}
+
+.contenthide {
+	font-size: 1.25em;
+}
+.desc {
+	padding-bottom: 2%;
+}
+footer {
+	vertical-align: bottom;
+	text-align: center;
+}
 @media screen and (max-width:500px) {
 	h1 {
+		margin-left: 15%;
 		float: left;
-		font-size: 1.5em;
+		font-size: 1.0em;
+	}
+	.timeforabreak {
+		display:show;
 	}
 	.menu {
-		float: right;
+		float: left;
 		width:10%;
 		height:10%;
-		content: url('../img/menu.svg');
+		/*content: url('../img/menu.svg');*/
 		
 }
-	nav select {
+	select {
 		display: inline-block;
+		float: right;
 	}
 
 	nav ul {
 		display: none;
 	}
+
+
+li .contenthide + input[type=checkbox] + ul > li
+         {
+            display: none;   
+          }    
+
+li .contenthide + input[type=checkbox]:checked + ul > li
+         {
+           display: block; 
 }
+
