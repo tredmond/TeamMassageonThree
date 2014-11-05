@@ -110,19 +110,34 @@ footer {
 	text-align: center;
 }
 
-#massageicon {
+.massageicon {
 	width: 50px;
 	height: 50px;
 	fill: white;
+	padding-right: 7px;
 }
 
-#calicon {
+.calicon {
+	fill: white;
+	width: 50px;
+	height: 38px;
+	
+}
+
+.icon {
+	fill:white;
 	width: 50px;
 	height: 50px;
-	fill: white;
 }
 
-
+.icons {
+	float: left;
+}
+section {
+	padding-left: 5px;
+	margin-left: 6%;
+	text-align: left;
+}
 @media screen and (max-width:500px) {
 	h1 {
 		margin-left: 15%;
@@ -148,7 +163,9 @@ footer {
 		display: none;
 	}
 
-
+.contenthide label {
+	margin-left: 5%;
+}
 li .contenthide + input[type=checkbox] + ul > li
          {
             display: none;   
