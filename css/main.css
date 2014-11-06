@@ -1,11 +1,12 @@
 * {
 	font-family: raleway, sans-serif;
-	color: white;
+	color: gray;
 
 	}
 
 body {
-	background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');
+	/*background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');*/
+	background-image: url("../img/Spa background2.jpg");
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
