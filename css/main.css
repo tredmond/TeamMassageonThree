@@ -1,16 +1,26 @@
 * {
 	font-family: raleway, sans-serif;
+<<<<<<< HEAD
 	color: white;
+=======
+	color: navy;
+>>>>>>> gh-pages
 
 	}
 
 body {
+<<<<<<< HEAD
 	background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');
+=======
+	/*background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');*/
+	background-image: url("../img/Spa background2.jpg");
+>>>>>>> gh-pages
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
   	background-repeat: no-repeat;
+<<<<<<< HEAD
   	width: 100%;
   	height: 100%;
   	}
@@ -20,22 +30,51 @@ header {
 	font-weight: 700;
 	font-size: 2em;
 	float: left;
+=======
+  /*	width: 100%;
+  	height: 100%;*/
+  	}
+
+.blureffect {
+	background-color: rgba(225,225,225,.25);
+}
+header {
+	width: 100%;
+	font-size: 2em;
+	/*float: left;*/
+>>>>>>> gh-pages
 }
 
 .menu {	
 	float: left;
+<<<<<<< HEAD
 	margin-top: 1%;
 	margin-left: 5%;
 	color: white;
+=======
+	margin-top: 5%;
+	margin-left: 5%;
+>>>>>>> gh-pages
 	fill: white;
 }
 
 h1 {
+<<<<<<< HEAD
 	width: 100%;
 	margin-top: -.5%;
 	margin-left: -5%;
 	margin-right: 5%;
 	text-align: center;	
+=======
+	
+	/*float: left;*/
+	/*width: 100%;*/
+	/*margin-top: -.5%;*/
+	/*position: absolute;*/
+	margin-right: 25%;
+	margin-left: 25%;
+	/*text-align: center;	*/
+>>>>>>> gh-pages
 }
 
 .timeforabreak {
@@ -44,6 +83,7 @@ h1 {
 
 nav {
 	clear: both;
+<<<<<<< HEAD
 	/*margin-left: 15%; */
 	text-align: center;
 	
@@ -56,6 +96,30 @@ nav ul {
  nav li {
 	display: inline;
 	padding: .5%;
+=======
+	/*margin-left: 15%;
+	width: 50%; 
+	height: 30px;*/
+	text-align: center;
+	background-color: rgba(192,192,192,.5);
+	margin-right: 25%;
+	margin-left: 25%;
+	max-width: 500px;
+}
+
+nav ul {
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 0px;
+	height: 30px;
+}
+
+ nav li {
+ 	width: 100%;
+	display: inline;
+	padding: 1% 5% 0 5%;
+	height:30px;
+>>>>>>> gh-pages
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -65,7 +129,11 @@ nav ul {
 
 
 nav li:hover {
+<<<<<<< HEAD
 	background: rgba(192,192,192,.5);
+=======
+	background: rgba(150,150,150,.5);
+>>>>>>> gh-pages
     color: #fff;
 }
 select {
@@ -79,8 +147,17 @@ select {
 
 .content {
 	margin-top: 5%;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+
+.content ul {
+	/*width: 75%;*/
+}
+>>>>>>> gh-pages
 .content li {
 	list-style: none;
 }
@@ -89,6 +166,7 @@ select {
 	display: none;
 }
 
+<<<<<<< HEAD
 .contenthide {
 	font-size: 1.25em;
 }
@@ -112,19 +190,155 @@ footer {
 		float: left;
 		width:10%;
 		height:10%;
+=======
+.desc_wrapper {
+	float:left;
+	width: 75%;
+
+
+}
+.contenthide label{
+	font-size: 1.25em;
+	float: left;
+}
+.desc {
+	padding-bottom: 2%;
+	font-size: .75em;
+	max-width: 75%;
+
+}
+
+.sidebar {
+	float: left;
+	background-color: rgba(192,192,192,.75);
+	border-radius: 5px;
+	text-align: left;
+	-webkit-padding-start: 10px;
+}
+/*footer {
+	vertical-align: bottom;
+	text-align: center;
+}*/
+
+.logo {
+	fill: rgb(192,192,192);
+	width: 100px;
+	height: 100px;
+}
+
+.massageicon {
+	width: 50px;
+	height: 50px;
+	fill: rgb(192,192,192);
+	padding-right: 7px;
+}
+
+.calicon {
+	fill: rgb(192,192,192);
+	width: 50px;
+	height: 38px;
+	
+}
+
+.icon {
+	fill: rgb(192,192,192);
+	width: 50px;
+	height: 50px;
+}
+
+.icons {
+	float: left;
+}
+section {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-left: 10%;
+	text-align: left;
+}
+
+footer {
+  clear:both;
+  margin: 0 auto;
+}
+.footer-1 {
+  /*background-color: #CCC; */
+  min-height: 100px;
+  margin: 0 auto;
+}
+.nav-footer {
+  display: block;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-footer li {
+  display: inline-block;
+}
+.footer-2 {
+  background-color: rgba(225,225,225,.5);
+  min-height: 75px;
+  margin: 0 auto;
+}
+
+.footer-2 p {
+  text-align: center;
+  padding-left: 40px;
+}
+
+/**********************************************************************
+Media Queries
+***********************************************************************/
+
+@media screen and (max-width:500px) {
+	.icons {
+		clear: both;
+		float: left;
+		padding-bottom: 2px;
+	}
+	h1 {
+		margin-right: 25%;
+		margin-left: 25%;
+		/*float: left;
+		margin-left: 5%;*/
+		font-size: 1.5em;
+	}
+
+	.timeforabreak {
+		display:show;
+	}
+
+	.menu {
+		float: left;
+		margin-left: 35%;
+		/*width:10%;
+		height:10%;*/
+>>>>>>> gh-pages
 		/*content: url('../img/menu.svg');*/
 		
 }
 	select {
 		display: inline-block;
 		float: right;
+<<<<<<< HEAD
+=======
+		margin-right: 10px;
+>>>>>>> gh-pages
 	}
 
 	nav ul {
 		display: none;
 	}
 
+<<<<<<< HEAD
 
+=======
+.contenthide label {
+	margin-left: 5%;
+	font-size: .55em;
+}
+>>>>>>> gh-pages
 li .contenthide + input[type=checkbox] + ul > li
          {
             display: none;   
@@ -135,3 +349,42 @@ li .contenthide + input[type=checkbox]:checked + ul > li
            display: block; 
 }
 
+<<<<<<< HEAD
+=======
+.sidebar {
+	clear: both;
+	margin-right: 5%;
+	margin-left: 25%;
+	display: inline;
+	
+}
+
+.massageicon {
+	width: 40px;
+	height: 40px;
+	fill: rgb(192,192,192);
+	padding-right: 7px;
+}
+
+.calicon {
+	fill: rgb(192,192,192);
+	width: 40px;
+	height: 28px;
+	
+}
+
+.icon {
+	fill: rgb(192,192,192);
+	width: 40px;
+	height: 40px;
+}
+
+section {
+	padding-bottom: 20px;
+}
+
+/*.desc_wrapper {
+	background-color: rgba(225,225,225,.25);
+	padding: -25%;
+ }*/
+>>>>>>> gh-pages

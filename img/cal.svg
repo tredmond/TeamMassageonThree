@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<<<<<<< HEAD
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+=======
+<svg version="1.1" id="cal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+>>>>>>> gh-pages
 	 width="88px" height="100px" viewBox="0 0 88 100" enable-background="new 0 0 88 100" xml:space="preserve">
 <path d="M0,32v59.906C0,96.377,3.582,100,8,100h72c4.418,0,8-3.623,8-8.094V32H0z M22,94H6V78h16V94z M22,74H6V58h16V74z M22,54H6
 	V38h16V54z M42,94H26V78h16V94z M42,74H26V58h16V74z M42,54H26V38h16V54z M62,94H46V78h16V94z M62,74H46V58h16V74z M62,54H46V38h16
