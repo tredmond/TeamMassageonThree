@@ -1,6 +1,6 @@
 * {
 	font-family: raleway, sans-serif;
-	color: gray;
+	color: navy;
 
 	}
 
@@ -18,11 +18,9 @@ body {
 
 .blureffect {
 	background-color: rgba(225,225,225,.25);
-	
 }
 header {
 	width: 100%;
-	font-weight: 700;
 	font-size: 2em;
 	/*float: left;*/
 }
@@ -37,11 +35,12 @@ header {
 h1 {
 	
 	/*float: left;*/
-	width: 100%;
-	margin-top: -.5%;
-	margin-left: -5%;
-	margin-right: 5%;
-	text-align: center;	
+	/*width: 100%;*/
+	/*margin-top: -.5%;*/
+	/*position: absolute;*/
+	margin-right: 25%;
+	margin-left: 25%;
+	/*text-align: center;	*/
 }
 
 .timeforabreak {
@@ -55,22 +54,22 @@ nav {
 	height: 30px;*/
 	text-align: center;
 	background-color: rgba(192,192,192,.5);
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 25%;
+	margin-left: 25%;
 	max-width: 500px;
-	
-	
-	
 }
 
 nav ul {
+	width: 100%;
 	padding-top: 5px;
+	padding-left: 0px;
 	height: 30px;
 }
 
  nav li {
+ 	width: 100%;
 	display: inline;
-	padding: 1% 1% 0 1%;
+	padding: 1% 5% 0 5%;
 	height:30px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -113,6 +112,7 @@ select {
 	float:left;
 	width: 75%;
 
+
 }
 .contenthide label{
 	font-size: 1.25em;
@@ -122,6 +122,7 @@ select {
 	padding-bottom: 2%;
 	font-size: .75em;
 	max-width: 75%;
+
 }
 
 .sidebar {
@@ -129,6 +130,7 @@ select {
 	background-color: rgba(192,192,192,.75);
 	border-radius: 5px;
 	text-align: left;
+	-webkit-padding-start: 10px;
 }
 /*footer {
 	vertical-align: bottom;
@@ -213,7 +215,8 @@ Media Queries
 		padding-bottom: 2px;
 	}
 	h1 {
-		margin: 0 auto;
+		margin-right: 25%;
+		margin-left: 25%;
 		/*float: left;
 		margin-left: 5%;*/
 		font-size: 1.5em;
@@ -256,10 +259,38 @@ li .contenthide + input[type=checkbox]:checked + ul > li
 }
 
 .sidebar {
+	clear: both;
+	margin-right: 5%;
 	margin-left: 25%;
 	display: inline;
-	clear: both;
-	/*margin-right: auto;
-	margin-left: auto;*/
+	
 }
 
+.massageicon {
+	width: 40px;
+	height: 40px;
+	fill: rgb(192,192,192);
+	padding-right: 7px;
+}
+
+.calicon {
+	fill: rgb(192,192,192);
+	width: 40px;
+	height: 28px;
+	
+}
+
+.icon {
+	fill: rgb(192,192,192);
+	width: 40px;
+	height: 40px;
+}
+
+section {
+	padding-bottom: 20px;
+}
+
+/*.desc_wrapper {
+	background-color: rgba(225,225,225,.25);
+	padding: -25%;
+ }*/
