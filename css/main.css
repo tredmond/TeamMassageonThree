@@ -38,6 +38,12 @@ h1 {
 	text-align: center;	
 }
 
+.map-photo {
+	display: block;
+	max width: 350px;
+	margin: 0 0 lem;
+}
+
 .timeforabreak {
 		display:none;
 	}
@@ -48,6 +54,8 @@ nav {
 	text-align: center;
 	
 }
+
+
 
 nav ul {
 	
