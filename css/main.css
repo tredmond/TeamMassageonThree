@@ -1,36 +1,17 @@
 * {
 	font-family: raleway, sans-serif;
-<<<<<<< HEAD
-	color: white;
-=======
 	color: navy;
->>>>>>> gh-pages
 
 	}
 
 body {
-<<<<<<< HEAD
-	background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');
-=======
 	/*background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Nature_landscape_ukraine_poltava_(8093168012).jpg');*/
 	background-image: url("../img/Spa background2.jpg");
->>>>>>> gh-pages
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
   	background-repeat: no-repeat;
-<<<<<<< HEAD
-  	width: 100%;
-  	height: 100%;
-  	}
-
-header {
-	width: 100%;
-	font-weight: 700;
-	font-size: 2em;
-	float: left;
-=======
   /*	width: 100%;
   	height: 100%;*/
   	}
@@ -42,30 +23,16 @@ header {
 	width: 100%;
 	font-size: 2em;
 	/*float: left;*/
->>>>>>> gh-pages
 }
 
 .menu {	
 	float: left;
-<<<<<<< HEAD
-	margin-top: 1%;
-	margin-left: 5%;
-	color: white;
-=======
 	margin-top: 5%;
 	margin-left: 5%;
->>>>>>> gh-pages
 	fill: white;
 }
 
 h1 {
-<<<<<<< HEAD
-	width: 100%;
-	margin-top: -.5%;
-	margin-left: -5%;
-	margin-right: 5%;
-	text-align: center;	
-=======
 	
 	/*float: left;*/
 	/*width: 100%;*/
@@ -74,7 +41,6 @@ h1 {
 	margin-right: 25%;
 	margin-left: 25%;
 	/*text-align: center;	*/
->>>>>>> gh-pages
 }
 
 .timeforabreak {
@@ -83,20 +49,6 @@ h1 {
 
 nav {
 	clear: both;
-<<<<<<< HEAD
-	/*margin-left: 15%; */
-	text-align: center;
-	
-}
-
-nav ul {
-	
-}
-
- nav li {
-	display: inline;
-	padding: .5%;
-=======
 	/*margin-left: 15%;
 	width: 50%; 
 	height: 30px;*/
@@ -119,7 +71,6 @@ nav ul {
 	display: inline;
 	padding: 1% 5% 0 5%;
 	height:30px;
->>>>>>> gh-pages
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -129,11 +80,7 @@ nav ul {
 
 
 nav li:hover {
-<<<<<<< HEAD
-	background: rgba(192,192,192,.5);
-=======
 	background: rgba(150,150,150,.5);
->>>>>>> gh-pages
     color: #fff;
 }
 select {
@@ -147,17 +94,12 @@ select {
 
 .content {
 	margin-top: 5%;
-<<<<<<< HEAD
-}
-
-=======
 
 }
 
 .content ul {
 	/*width: 75%;*/
 }
->>>>>>> gh-pages
 .content li {
 	list-style: none;
 }
@@ -166,31 +108,6 @@ select {
 	display: none;
 }
 
-<<<<<<< HEAD
-.contenthide {
-	font-size: 1.25em;
-}
-.desc {
-	padding-bottom: 2%;
-}
-footer {
-	vertical-align: bottom;
-	text-align: center;
-}
-@media screen and (max-width:500px) {
-	h1 {
-		margin-left: 15%;
-		float: left;
-		font-size: 1.0em;
-	}
-	.timeforabreak {
-		display:show;
-	}
-	.menu {
-		float: left;
-		width:10%;
-		height:10%;
-=======
 .desc_wrapper {
 	float:left;
 	width: 75%;
@@ -314,31 +231,23 @@ Media Queries
 		margin-left: 35%;
 		/*width:10%;
 		height:10%;*/
->>>>>>> gh-pages
 		/*content: url('../img/menu.svg');*/
 		
 }
 	select {
 		display: inline-block;
 		float: right;
-<<<<<<< HEAD
-=======
 		margin-right: 10px;
->>>>>>> gh-pages
 	}
 
 	nav ul {
 		display: none;
 	}
 
-<<<<<<< HEAD
-
-=======
 .contenthide label {
 	margin-left: 5%;
 	font-size: .55em;
 }
->>>>>>> gh-pages
 li .contenthide + input[type=checkbox] + ul > li
          {
             display: none;   
@@ -349,8 +258,6 @@ li .contenthide + input[type=checkbox]:checked + ul > li
            display: block; 
 }
 
-<<<<<<< HEAD
-=======
 .sidebar {
 	clear: both;
 	margin-right: 5%;
@@ -387,4 +294,3 @@ section {
 	background-color: rgba(225,225,225,.25);
 	padding: -25%;
  }*/
->>>>>>> gh-pages
