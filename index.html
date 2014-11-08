@@ -2,6 +2,9 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" href="js/main.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<title>Serenity Massage</title>
 </head>
 <body>
@@ -84,12 +87,18 @@
 		<li><a href="Offerings.html">Offerings</a></li>
 		<li><a href='Schedule.html'>Schedule</a></li>
 	</ul>
-	<select>
+	  <select id="opts" onchange="GotoPage()">
+        <option value="0">MENU</option>
+        <option value="index.html">Home</option>
+        <option value="Offerings.html">Offerings</option>
+        <option value="Schedule.html">Schedule</option>
+    </select>
+	<!-- <select>
 		<option value="" selected="selected">Select</option>
 		<Option value="/">Home</Option>
 		<Option value="Offerings.html">Offerings</Option>
 		<Option value='Schedule.html'>Schedule</Option>
-	</select>
+	</select> -->
 </nav>
 <div class='content'>
 	<div class='desc_wrapper'>
@@ -137,11 +146,11 @@
 					<a href='Offerings.html'><svg class="massageicon" viewbox="0 0 100 82"><use xlink:href="img/massage.svg#massage"></use></svg></a>
 				</div>
 				<section>
-					<label class="contenthide" for="stone"><strong>Hot Stone Massage</strong></label>
+					<label class="contenthide" for="stone"><strong>Serenity Lava Shell Massage</strong></label>
 					<input type="checkbox" id="stone" />
 					<ul>
 						<li class="desc">
-							Heated, smooth stones are placed on certain points on the body to warm and loosen tight muscles and balance energy centers in the body. 
+							Lava Shell Massage is a relaxing massage that uses heat, like hot stone massage therapy.  
 							
 						</li>
 					</ul>

@@ -38,6 +38,7 @@ h1 {
 	/*margin-top: -.5%;*/
 	/*position: absolute;*/
 	margin: 0 auto;
+	margin-top: 5%;
 	margin-right: 18%;
 	text-align: center;
 }
@@ -158,6 +159,9 @@ nav select {
 	height: auto;
 }
 
+.logo:hover {
+	fill:red;
+}
 .massageicon {
 	width: 50px;
 	height: 50px;
@@ -165,6 +169,9 @@ nav select {
 	padding-right: 7px;
 }
 
+.massageicon:hover {
+	fill: red;
+}
 .calicon {
 	fill: navy;
 	width: 50px;
@@ -172,10 +179,18 @@ nav select {
 	
 }
 
+.calicon:hover {
+	fill: red;
+}
+
 .icon {
 	fill: rgb(192,192,192);
 	width: 50px;
 	height: 50px;
+}
+
+.icon:hover {
+	fill: red;
 }
 
 .icons {
@@ -202,13 +217,13 @@ section {
 	padding: 2%;
 
 }
-
 .map {
 	float: left;
 	width: 45%;
 	height: auto;
 	padding: 2%;
 }
+
 footer {
   clear:both;
   margin: 0 auto;
@@ -239,7 +254,16 @@ footer {
   text-align: center;
   padding-left: 40px;
 }
+.off_desc p{
+	font-family: 'Rouge Script', cursive;
+	font-size: 1.5em;
+}
 
+h5 {
+	font-weight: bold;
+	font-family: 'Rouge Script', cursive;
+	font-size: 1.75em;
+}
 /**********************************************************************
 Media Queries
 ***********************************************************************/
@@ -262,6 +286,7 @@ Media Queries
 		width: 100px;
 		height: auto;
 	}
+
 	.timeforabreak {
 		display:show;
 	}
@@ -295,6 +320,7 @@ Media Queries
 	font-size: .55em;
 }
 
+
 li .contenthide + input[type=checkbox] + ul > li
          {
             display: none;   
@@ -321,12 +347,14 @@ li .contenthide + input[type=checkbox]:checked + ul > li
 	padding-right: 7px;
 }
 
+
+
 .calicon {
 	fill: navy;
 	width: 40px;
-	height: 28px;
-	
+	height: 28px;	
 }
+
 
 .icon {
 	margin-top: 5%;
@@ -340,10 +368,27 @@ li .contenthide + input[type=checkbox]:checked + ul > li
 }
 section {
 	padding-bottom: 20px;
-	width: 100%;
+	width: 90%;
 
 }
+
 
 .desc_wrapper {
 	margin-left: 18%;
  }
+
+.cal_img {
+	float: left;
+	width: 45%;
+	height: auto;
+	padding: 2%;
+
+}
+
+.map {
+	float: left;
+	width: 45 %;
+	height: auto;
+	padding: 2%;
+}
+
