@@ -29,7 +29,6 @@ header {
 	float: left;
 	margin-top: 5%;
 	margin-left: 5%;
-	fill: white;
 }
 
 h1 {
@@ -38,9 +37,9 @@ h1 {
 	/*width: 100%;*/
 	/*margin-top: -.5%;*/
 	/*position: absolute;*/
-	margin-right: 25%;
-	margin-left: 25%;
-	/*text-align: center;	*/
+	margin: 0 auto;
+	margin-right: 18%;
+	text-align: center;
 }
 
 .timeforabreak {
@@ -49,13 +48,13 @@ h1 {
 
 nav {
 	clear: both;
-	/*margin-left: 15%;
-	width: 50%; 
-	height: 30px;*/
+	/*width: 50%; 
+	height: 30px;*/*/
 	text-align: center;
 	background-color: rgba(192,192,192,.5);
-	margin-right: 25%;
-	margin-left: 25%;
+	/*margin-right: 25%;
+	margin-left: 30%;*/
+	margin: 0 auto;
 	max-width: 500px;
 }
 
@@ -64,13 +63,14 @@ nav ul {
 	padding-top: 5px;
 	padding-left: 0px;
 	height: 30px;
+	text-align: center;
 }
 
  nav li {
  	width: 100%;
 	display: inline;
 	padding: 1% 5% 0 5%;
-	height:30px;
+	height:50px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -83,7 +83,15 @@ nav li:hover {
 	background: rgba(150,150,150,.5);
     color: #fff;
 }
-select {
+
+nav a:link {
+	text-decoration: none;
+}
+
+nav a:visited {
+
+}
+nav select {
 	display:none;
 }
 
@@ -111,6 +119,7 @@ select {
 .desc_wrapper {
 	float:left;
 	width: 75%;
+	background-color: rgba(254,254,254,.5);
 
 
 }
@@ -127,10 +136,14 @@ select {
 
 .sidebar {
 	float: left;
-	background-color: rgba(192,192,192,.75);
+	background-color: rgba(192,192,192,.5);
 	border-radius: 5px;
 	text-align: left;
 	-webkit-padding-start: 10px;
+	padding-bottom: 15px;
+	padding-right: 12px;
+	padding-left: 15px;
+	margin: 2%;
 }
 /*footer {
 	vertical-align: bottom;
@@ -138,20 +151,22 @@ select {
 }*/
 
 .logo {
-	fill: rgb(192,192,192);
-	width: 100px;
-	height: 100px;
+	/*fill: rgb(192,192,192);*/
+	margin-top: -50px;
+	fill: navy;
+	width: 150px;
+	height: auto;
 }
 
 .massageicon {
 	width: 50px;
 	height: 50px;
-	fill: rgb(192,192,192);
+	fill: navy;
 	padding-right: 7px;
 }
 
 .calicon {
-	fill: rgb(192,192,192);
+	fill: navy;
 	width: 50px;
 	height: 38px;
 	
@@ -221,7 +236,11 @@ Media Queries
 		margin-left: 5%;*/
 		font-size: 1.5em;
 	}
-
+	.logo {
+		margin-top: 0px;
+		width: 100px;
+		height: auto;
+	}
 	.timeforabreak {
 		display:show;
 	}
@@ -234,7 +253,10 @@ Media Queries
 		/*content: url('../img/menu.svg');*/
 		
 }
-	select {
+	nav select {
+		position: absolute;
+		top: 10px;
+		right: 10px;
 		display: inline-block;
 		float: right;
 		margin-right: 10px;
@@ -244,10 +266,14 @@ Media Queries
 		display: none;
 	}
 
+.content ul {
+	padding-left: 5px;
+}
 .contenthide label {
 	margin-left: 5%;
 	font-size: .55em;
 }
+
 li .contenthide + input[type=checkbox] + ul > li
          {
             display: none;   
@@ -261,36 +287,42 @@ li .contenthide + input[type=checkbox]:checked + ul > li
 .sidebar {
 	clear: both;
 	margin-right: 5%;
-	margin-left: 25%;
+	margin-left: 20%;
 	display: inline;
+	padding-bottom: 15px;
 	
 }
 
 .massageicon {
 	width: 40px;
 	height: 40px;
-	fill: rgb(192,192,192);
+	fill: navy;
 	padding-right: 7px;
 }
 
 .calicon {
-	fill: rgb(192,192,192);
+	fill: navy;
 	width: 40px;
 	height: 28px;
 	
 }
 
 .icon {
-	fill: rgb(192,192,192);
+	margin-top: 5%;
+	fill: navy;
 	width: 40px;
 	height: 40px;
 }
 
+.icons {
+
+}
 section {
 	padding-bottom: 20px;
+	width: 100%;
+
 }
 
-/*.desc_wrapper {
-	background-color: rgba(225,225,225,.25);
-	padding: -25%;
- }*/
+.desc_wrapper {
+	margin-left: 18%;
+ }
