@@ -160,7 +160,7 @@ nav select {
 }
 
 .logo:hover {
-	fill:red;
+	fill: green;
 }
 .massageicon {
 	width: 50px;
@@ -170,7 +170,7 @@ nav select {
 }
 
 .massageicon:hover {
-	fill: red;
+	fill: green;
 }
 .calicon {
 	fill: navy;
@@ -180,7 +180,7 @@ nav select {
 }
 
 .calicon:hover {
-	fill: red;
+	fill: green;
 }
 
 .icon {
@@ -254,6 +254,8 @@ footer {
   text-align: center;
   padding-left: 40px;
 }
+
+/*Offerings page*/
 .off_desc p{
 	font-family: 'Rouge Script', cursive;
 	font-size: 1.5em;
@@ -263,6 +265,16 @@ h5 {
 	font-weight: bold;
 	font-family: 'Rouge Script', cursive;
 	font-size: 1.75em;
+}
+
+.offering1:hover {
+ 	color:green;
+}
+
+.rating:hover {
+	fill: yellow;
+	width:50px;
+	height: auto;
 }
 /**********************************************************************
 Media Queries
