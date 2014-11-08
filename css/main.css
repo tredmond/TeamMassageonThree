@@ -188,6 +188,27 @@ section {
 	text-align: left;
 }
 
+/*Schedule page*/
+
+.cal_content {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+}
+.cal_img {
+	float: left;
+	width: 45%;
+	height: auto;
+	padding: 2%;
+
+}
+
+.map {
+	float: left;
+	width: 45%;
+	height: auto;
+	padding: 2%;
+}
 footer {
   clear:both;
   margin: 0 auto;
